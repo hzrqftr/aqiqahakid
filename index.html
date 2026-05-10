@@ -671,8 +671,8 @@
         style="font-family: 'Nunito', sans-serif; font-size: 0.45em; font-style: normal; color: var(--gold); letter-spacing: 0.1em; display: block; margin: 0.2rem 0;">bin</span>
       Mohd Affandy
     </h1>
-    <p class="hero-date i18n" data-bm="Sabtu, 30 Mei 2026 · 11:00 AM - 4:00 PM"
-      data-en="Saturday, 30 May 2026 · 11:00 AM - 4:00 PM"></p>
+    <p class="hero-date i18n" data-bm="Sabtu, 30 Mei 2026 · 11:00 AM - 3:00 PM"
+      data-en="Saturday, 30 May 2026 · 11:00 AM - 3:00 PM"></p>
     <div class="scroll-cue i18n" data-bm="Teruskan ke bawah" data-en="Scroll down"></div>
   </section>
 
@@ -715,7 +715,7 @@
           </div>
           <div>
             <p class="event-info-label i18n" data-bm="Masa" data-en="Time"></p>
-            <p class="event-info-val i18n" data-bm="11:00 pagi – 4:00 petang" data-en="11:00 AM – 4:00 PM"></p>
+            <p class="event-info-val i18n" data-bm="11:00 pagi – 3:00 petang" data-en="11:00 AM – 3:00 PM"></p>
           </div>
         </div>
 
@@ -906,7 +906,7 @@
       document.getElementById('tidakForm').style.display = (type === 'tidak') ? '' : 'none';
     }
 
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzCfnn3AKtdib0qGYHDN8z3TkB0aitc-HkYrZkn9zTt-9PN6HVbL-gzs7CqUyFz9ouP/exec';
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw9PTfuSkiJA5LlxhLffkRCbY7KGV6zJuibW000vMoCwc4ul3z5rY_PYk5KdpIkt2yF/exec';
     async function submitRsvp(type) {
       const btn = document.querySelector(type === 'hadir' ? '.hadir-btn' : '.tidak-btn');
       const nama = document.getElementById(type === 'hadir' ? 'hadirNama' : 'tidakNama').value.trim();
